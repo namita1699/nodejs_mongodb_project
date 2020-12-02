@@ -1,0 +1,47 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+.box
+{
+    margin: 60px;
+    padding: 5px;
+    height:500px;
+    border:outset 1px;
+    border-radius:20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.label
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	padding-left: 250px;
+	text-align: center;
+	font-size:25px;
+}
+
+.button {
+	border: none;
+	background: #590995;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 500px;
+	cursor: pointer;
+	
+}
+
+.textbox
+{
+	border: inset;
+	height: 25px;
+	width: 285px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;	
+}

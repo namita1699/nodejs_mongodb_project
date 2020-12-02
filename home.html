@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .button {
+            border: none;
+            background: #590995;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <form action="/FindAll">
+            <h2>Get Details of all the movies</h2>
+            <input type="submit" class="button" value="Find All">
+        </form>
+        <hr>
+        <form action="/FindSpecific" method="post">
+            <h2>Get Details of Specific Movies</h2>
+            <label class="label">Select movie name: </label>
+            <select name="movie1" id="moviename">
+                  <option value="Harry Potter and the Order of the Phoenix">Harry Potter and the Order of the Phoenix</option>
+                  <option value="The Lord of the Rings: The Fellowship of the Ring">The Lord of the Rings: The Fellowship of the Ring</option>
+                  <option value="Avengers: Endgame">Avengers: Endgame</option>
+                </select>
+
+
+            <input type="submit" class="button" value="Find Specific">
+        </form>
+    </div>
+</body>
+
+</html>
